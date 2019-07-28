@@ -1,0 +1,94 @@
+main:
+  - title: How to compile things
+    url: /docpages/setup-compchem//
+  - title: How to set-up Ubuntu 19.04
+    url: /docpages/setup-ubuntu-19//
+
+pages/setup-compchem:
+  - title: How to compile things
+    url: /docpages/setup-compchem/#
+  - title: GROMACS
+    url: /docpages/setup-compchem/#gromacs
+    children:
+    - title: 2016.1
+      url: /docpages/setup-compchem/#20161
+      children:
+      - title: Installing GCC
+        url: /docpages/setup-compchem/#installing-gcc
+        children:
+        - title: GCC 5.4
+          url: /docpages/setup-compchem/#gcc-54
+      - title: Installing CUDA
+        url: /docpages/setup-compchem/#installing-cuda
+      - title: Installing GROMACS
+        url: /docpages/setup-compchem/#installing-gromacs
+        children:
+        - title: Process
+          url: /docpages/setup-compchem/#process
+    - title: 2018.3
+      url: /docpages/setup-compchem/#20183
+      children:
+      - title: 
+        url: /docpages/setup-compchem/#
+        children:
+        - title: Process
+          url: /docpages/setup-compchem/#process
+  - title: AMBER
+    url: /docpages/setup-compchem/#amber
+    children:
+    - title: Amber16
+      url: /docpages/setup-compchem/#amber16
+    - title: AmberTools 19
+      url: /docpages/setup-compchem/#ambertools-19
+      children:
+      - title: Dependencies
+        url: /docpages/setup-compchem/#dependencies
+      - title: Process
+        url: /docpages/setup-compchem/#process
+  - title: Visualisation programs
+    url: /docpages/setup-compchem/#visualisation-programs
+    children:
+    - title: VMD
+      url: /docpages/setup-compchem/#vmd
+    - title: Pymol
+      url: /docpages/setup-compchem/#pymol
+  - title: Other
+    url: /docpages/setup-compchem/#other
+    children:
+    - title: Autodock
+      url: /docpages/setup-compchem/#autodock
+
+setup-ubuntu-19.md:
+  - title: How to set-up Ubuntu 19.04
+    url: /docpages/setup-ubuntu-19/#
+  - title: Basics
+    url: /docpages/setup-ubuntu-19/#basics
+    children:
+    - title: 0. Obtain a Ubuntu USB drive
+      url: /docpages/setup-ubuntu-19/#0-obtain-a-ubuntu-usb-drive
+    - title: 1. Install Ubuntu and drivers
+      url: /docpages/setup-ubuntu-19/#1-install-ubuntu-and-drivers
+    - title: 2. Reconfiguring grub and the display server
+      url: /docpages/setup-ubuntu-19/#2-reconfiguring-grub-and-the-display-server
+    - title: 3. Configure SSH
+      url: /docpages/setup-ubuntu-19/#3-configure-ssh
+      children:
+      - title: SSH keys
+        url: /docpages/setup-ubuntu-19/#ssh-keys
+  - title: Extras
+    url: /docpages/setup-ubuntu-19/#extras
+    children:
+    - title: 4. Checkinstall, GCC (optional)
+      url: /docpages/setup-ubuntu-19/#4-checkinstall-gcc-optional
+      children:
+      - title: Checkinstall
+        url: /docpages/setup-ubuntu-19/#checkinstall
+    - title: 5. Environment modules
+      url: /docpages/setup-ubuntu-19/#5-environment-modules
+    - title: 6. Anaconda and Python
+      url: /docpages/setup-ubuntu-19/#6-anaconda-and-python
+      children:
+      - title: Environments
+        url: /docpages/setup-ubuntu-19/#environments
+  - title: Computational chemistry stuff
+    url: /docpages/setup-ubuntu-19/#computational-chemistry-stuff

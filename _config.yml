@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Hello. I'm Jami Gibbs."
-email: 'jami0821@gmail.com'
-description: "I'm a software developer and designer from Chicago creating useful things for the web."
+title: "Hello, my name is Lily."
+email: 'lily@minium.com.au'
+description: "I'm meandering through a Ph.D. in molecular dynamics at the Australian National University. I'm interested in improving tools in molecular dynamics and in chemistry education."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jamigibbs.github.io/phantom" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 'jamigibbs'
-github_username: 'jamigibbs'
-medium_username: 'blog.jamigibbs.com'
+url: "https://minium.com.au" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 'lilyminium'
+github_username: 'lilyminium'
+blog_url: 'blog.minium.com.au'
 
 # Build settings
 markdown: kramdown
@@ -28,11 +28,19 @@ markdown: kramdown
 plugins:
   - jekyll-paginate
 
+collections:
+  docpages:
+      output: true
+
+include:
+  - docpages
+
+
 ### Phantom settings
 paginate: 10
-footer_text: '© 2018 Jami Gibbs'
-admin_name: 'Jami Gibbs'
-google_analytics: "UA-9999999-99" # Update with your own tracking ID
+# footer_text: '© 2018 Jami Gibbs'
+admin_name: 'Lily Wang'
+# google_analytics: "UA-9999999-99" # Update with your own tracking ID
 enable_contact: false
 
 #### Phantom Navigation menu
@@ -40,3 +48,4 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/about', text: 'About' }
+  - { url: '/pages', text: 'Pages'}
