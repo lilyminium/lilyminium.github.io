@@ -1,7 +1,6 @@
 ---
 layout: inner
 title: About
-permalink: /about
 ---
 # About me
 I'm a Ph.D. student at the Australian National University, working with Associate Professor Megan O'Mara in molecular dynamics. My research focuses on improving various aspects of molecular dynamics research. My solutions range from creating a topology builder for polymers, to looking at neural networks for predicting the potential energy of molecular systems. 
