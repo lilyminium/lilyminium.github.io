@@ -8,15 +8,18 @@
 
         <div class="hero-content">
 
-          {% if site.title != '' %}
-          <h1 class="text-center">{{site.title}}</h1>
-          {% endif %}
+          <h1 class="text-center">
+            Hi. I'm Lily.
+          </h1>
 
           {% if site.description != '' or site.enable_contact == true %}
           <p class="text-center">
-            {% if site.description != '' %}
-            {{site.description}}
-            {% endif %}
+              I'm meandering through a Ph.D. in molecular dynamics at the Australian National University. 
+              I'm interested in improving tools in molecular dynamics and in chemistry education.
+            </p>
+            <p class="text-center">
+
+              You may know me as <i>lilyminium</i>.
 
             {% if site.enable_contact == true %}
             {% include contact.html %}
@@ -25,22 +28,7 @@
           </p>
           {% endif %}
 
-          <div class="hero-buttons">
-
-            {% if site.twitter_username != '' %}
-            <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i
-                  class="fa fa-twitter fa-lg"></i>Twitter</button></a>
-            {% endif %}
-            {% if site.github_username != '' %}
-            <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i
-                  class="fa fa-github fa-lg"></i>Github</button></a>
-            {% endif %}
-            {% if site.blog_url != '' %}
-            <a href="https://{{ site.blog_url }}"><button class="btn btn-default btn-lg"><i
-                  class="fa fa-edit fa-lg"></i>Blog</button></a>
-            {% endif %}
-
-          </div>
+          {% include hero_buttons.html %}
 
         </div>
 

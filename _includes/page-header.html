@@ -1,0 +1,33 @@
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <div class="hero-container">
+
+                <div class="hero-content">
+
+                    {% if page.title != '' %}
+                    <h1 class="text-center">{{page.title}}</h1>
+                    {% endif %}
+
+                    {% if site.subtitle != '' %}
+                    <p class="text-center">
+                        {{site.subtitle}}
+                    </p>
+                    {% endif %}
+
+                </div>
+
+            </div>
+
+            <a class="section-jump text-center" href="#portfolio">
+                <i class="fa fa-angle-down fa-3x"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>

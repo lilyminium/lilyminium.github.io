@@ -15,7 +15,6 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hello, my name is Lily."
 email: 'lily@minium.com.au'
-description: "I'm meandering through a Ph.D. in molecular dynamics at the Australian National University. I'm interested in improving tools in molecular dynamics and in chemistry education."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://minium.com.au" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 'lilyminium'
@@ -47,5 +46,5 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
+  - { url: '/talks', text: 'Talks'}
   - { url: '/about', text: 'About' }
-  - { url: '/pages', text: 'Pages'}
