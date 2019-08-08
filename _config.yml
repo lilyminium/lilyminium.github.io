@@ -32,7 +32,7 @@ collections:
       output: true
 
 include:
-  - pages
+  - _pages
 
 
 ### Phantom settings
